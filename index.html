@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asikur Rahman</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark border-bottom">
+        <div class="container">
+            <!-- logo -->
+            <a class="navbar-brand" href="index.php"><img height="50px" src="img/logo.png" alt=""></a>
+            <!-- toggle btn -->
+            <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- sidebar -->
+            <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <!-- sidebar header -->
+                <div class="offcanvas-header text-white border-bottom">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img height="50px" src="img/logo.png" alt=""></h5>
+                    <button type="button" class="btn-close btn-close-white shadow-none" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <!-- sidebar body -->
+                <div class="offcanvas-body d-flex flex-column flex-lg-row">
+                    <ul class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3 fs-5 text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link mx-2 active" aria-current="page" href="#home">Home</a>
+                        </li>                        
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#service">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#blog">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mx-2" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="d-flex flex-lg-row justify-content-center align-items-center gap-4">
+                        <a class="text-white text-decoration-none fs-2" href="https://github.com/Asikur580"><i class="bi bi-github"></i></a>
+                        <a class="text-white text-decoration-none fs-3" href="https://www.linkedin.com/in/asikur-rahman-07051b298/"><i class="bi bi-linkedin"></i></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- navbar end -->
+
+    <!-- hero section -->
+
+    <section id="home" class="hero container text-center text-white">
+
+        <div class="row">
+
+            <div class="col-lg-6 col-12 d-flex justify-content-center justify-content-lg-start align-items-center">
+                <img class="rounded w-50" src="img/hero.jpg" alt="hero image">
+            </div>
+
+            <div class="col-lg-6 col-12 d-flex flex-column justify-content-center align-items-center gap-1 mt-5 mt-lg-0">
+                <h1 class="text-capitalize">Hello, I'm<br> Asikur Rahman !</h1>
+                <p class="text-capitalize fs-4">laravel web developer</p>
+                <a href="" class="btn btn-info text-uppercase mt-3">Download Cv</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- hero section end -->
+
+    <!-- service section -->
+
+    <section id="service" class="service container text-center text-white">
+
+        <div class="service-text d-flex flex-column align-items-center justify-content-center">
+            <p class="fs-4 text-capitalize">My service</p>
+            <h1 class="">Transform your online presence with custom website design and development services</h1>
+        </div>
+        <div class="row">
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card service-card">
+                    <i class="bi bi-window card-img-top card-img"></i>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-3 mb-4">Web Design</h5>
+                        <p class="card-text mb-4">Welcome, we believe in the power of design to elevate your online presence and captivate your audience. Our mission is to create visually stunning and highly functional websites that not only reflect your brand but also engage and inspire visitors.</p>
+                        <a href="" class="btn btn-info w-50 align-self-center">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card service-card">
+                    <i class="bi bi-window-desktop card-img-top card-img"></i>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-3 mb-4">Web Development</h5>
+                        <p class="card-text mb-4">Welcome , where innovation meets functionality in the world of web development. We specialize in creating dynamic and high-performance websites that not only look impressive but also deliver seamless user experiences.</p>
+                        <a href="#" class="btn btn-info w-50 align-self-center">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card service-card">
+                    <i class="bi bi-window-split card-img-top card-img"></i>
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-3 mb-4">Wordpress</h5>
+                        <p class="card-text mb-4">Welcome, your go-to destination for professional and customized WordPress solutions. We specialize in harnessing the power of WordPress to create user-friendly websites tailored to your unique needs.</p>
+                        <a href="#" class="btn btn-info w-50 align-self-center">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- service section end -->
+
+    <!-- skill section -->
+
+    <section id="skills" class="skill container text-white">
+
+        <div class="skill-title d-flex flex-column text-center align-items-center justify-content-center">
+            <p class="fs-4 text-capitalize">My Skill</p>
+            <h1 class="">Experienced in server-side scripting and database management</h1>
+        </div>
+
+        <div class="row mt-5">
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">laravel</p><img class="skill-img" width="120px" height="102.2px" src="img/laravel-icon.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">Vue js</p><img class="skill-img" width="120px" height="102.2px" src="img/vue-js.png" alt="">
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">sql</p><i class="bi bi-filetype-sql"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">php</p><i class="bi bi-filetype-php"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">git</p><i class="bi bi-git"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">github</p><i class="bi bi-github"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">html</p><i class="bi bi-filetype-html"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">css</p><i class="bi bi-filetype-css"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">sass</p><i class="bi bi-filetype-sass"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">bootstrap</p><i class="bi bi-bootstrap"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">javascript</p><i class="bi bi-filetype-js"></i>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4 col-6 skill-icon">
+                <p class="fs-4">office</p><i class="bi bi-microsoft"></i>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- skill section end -->
+
+    <!-- blog section -->
+
+    <section id="blog" class="blog container text-center text-white">
+
+        <div class="blog-text d-flex flex-column align-items-center justify-content-center">
+            <p class="fs-4 text-capitalize">Blog</p>
+            <h1 class="">Our trend analysis articles keep you informed and inspired</h1>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card blog-card">
+                    <img src="img/blog1.jpg" class="card-img-top blog-card-img" alt="370:350">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-3 mb-4">Web Design</h5>
+                        <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-info w-50 align-self-center">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card blog-card">
+                    <img src="img/blog1.jpg" class="card-img-top blog-card-img" alt="370:350">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-3 mb-4">Web Development</h5>
+                        <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-info w-50 align-self-center">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="card blog-card">
+                    <img src="img/blog1.jpg" class="card-img-top blog-card-img" alt="370:350 ratio image">
+                    <div class="card-body d-flex flex-column justify-content-between">
+                        <h5 class="card-title fs-3 mb-4">Wordpress</h5>
+                        <p class="card-text mb-4">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-info w-50 align-self-center">Read More</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- blog section end -->
+
+    <!-- contact section -->
+
+    <section id="contact" class="contact container text-white">
+
+        <div class="contact-text text-center d-flex flex-column align-items-center justify-content-center">
+            <p class="fs-4 text-capitalize">contact</p>
+            <h1 class="">We value your input and look forward to connecting with you</h1>
+        </div>
+
+        <div class="row">
+
+            <div class="col-lg-5 col-12">
+
+                <div class="contactTitle">
+                    <h2>Get In Touch</h2>
+                    <p>Have a question, suggestion, or just want to say hello? We'd love to hear from you! Use the contact form below to send us a message, and we'll get back to you as soon as possible.</p>
+                </div>
+
+                <div class="contactInfo">
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="bi bi-telephone"></i>
+                        </div>
+                        <div class="details">
+                            <span>Phone</span>
+                            <span>+88 01824-580580</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div class="details">
+                            <span>Email</span>
+                            <span>asikur58039@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="iconGroup">
+                        <div class="icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <div class="details">
+                            <span>Location</span>
+                            <span>Rajabar Hat, Godagari, Rajshahi</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-lg-7 col-12">
+
+                <form class="messageForm" method="POST" action="">
+
+                    <div class="inputGroup halfWidth">
+                        <input type="text" name="name" required="required">
+                        <label>Your Name</label>
+                    </div>
+
+                    <div class="inputGroup halfWidth">
+                        <input type="email" name="email" required="required">
+                        <label>Email</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <input type="text" name="subject" required="required">
+                        <label>Subject</label>
+                    </div>
+
+                    <div class="inputGroup fullWidth">
+                        <textarea name="message" required="required"></textarea>
+                        <label>Say Something</label>
+                    </div>
+
+                    <div type="submit" name="send" class="inputGroup fullWidth">
+                        <button>Send Message</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- contact section end -->
+
+
+    <!-- footer section -->
+
+    <section class="footer text-center bg-dark fixed-bottom">
+
+        <p class="text-white">© 2023. All rights reserved by Asikur Rahman.</p>
+
+    </section>
+
+    <!-- footer section end -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    </body>
+
+</html>
